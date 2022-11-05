@@ -4,6 +4,9 @@
 * pandas
 * sklearn
 
+### 
+# For citeseer data set and pubmed dataset, please unzip the files in () and () first. 
+
 ### Command
 Single-graph knowledge transfer: cora-> reddit1, where GCN is used as backbone.
 ```
@@ -20,4 +23,3 @@ Multi-graph knowledge transfer: cora+pubmed+citeseer-> reddit, where GCN is used
 ```
 python main.py --gpu 0 --graph_src cora+pubmed+citeseer  --graph_dst reddit1 --dropout 0.3 --lr 0.002 --patience 1000 --base_model gcn --beta 2
 ```
-

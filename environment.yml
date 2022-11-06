@@ -1,4 +1,4 @@
-name: outlier
+name: MentorGNN
 channels:
   - pytorch
   - conda-forge
@@ -115,4 +115,4 @@ dependencies:
     - torch-sparse==0.6.14
     - torch-spline-conv==1.2.1
     - ugfraud==0.1.1.3
-prefix: C:\Users\lecheng\Anaconda3\envs\outlier
+prefix: C:\Users\lecheng\Anaconda3\envs\MentorGNN

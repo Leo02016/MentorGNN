@@ -26,12 +26,12 @@ python main.py --gpu 0 --graph_src cora --graph_dst reddit1 --dropout 0.5 --lr 0
 
 Multi-graph knowledge transfer: cora+pubmed+citeseer-> reddit, where GCN is used as backbone.
 ```
-python main.py --gpu 0 --graph_src cora+pubmed+citeseer  --graph_dst reddit1 --dropout 0.3 --lr 0.002 --patience 1000 --base_model gcn --beta 2
+python main.py --gpu 0 --graph_src cora+pubmed+citeseer  --graph_dst reddit1 --dropout 0.5 --lr 0.003 --patience 1000 --base_model gcn --beta 2
 ```
 
 Multi-graph knowledge transfer: cora+pubmed+citeseer-> reddit, where GAT is used as backbone.
 ```
-python main.py --gpu 0 --graph_src cora+pubmed+citeseer  --graph_dst reddit1 --dropout 0.3 --lr 0.002 --patience 1000 --base_model gat --beta 2
+python main.py --gpu 0 --graph_src cora+pubmed+citeseer  --graph_dst reddit1 --dropout 0.5 --lr 0.003 --patience 1000 --base_model gat --beta 2
 ```
 
 # Reference

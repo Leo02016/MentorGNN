@@ -7,6 +7,11 @@
 # Unzip data sets 
 For citeseer data set and pubmed dataset, please unzip the files [citeseer file](https://github.com/Leo02016/MentorGNN/blob/main/data/citeseer/preprocessed_data.zip) and [Pubmed file](https://github.com/Leo02016/MentorGNN/blob/main/data/pubmed/preprocessed_data.zip) first. 
 
+
+# Environment and Installation:
+1. conda env create -f environment.yml
+2. conda activate MentorGNN
+
 # Command
 Single-graph knowledge transfer: cora-> reddit1, where GCN is used as backbone.
 ```

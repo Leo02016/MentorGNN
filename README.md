@@ -23,6 +23,12 @@ Multi-graph knowledge transfer: cora+pubmed+citeseer-> reddit, where GCN is used
 ```
 python main.py --gpu 0 --graph_src cora+pubmed+citeseer  --graph_dst reddit1 --dropout 0.3 --lr 0.002 --patience 1000 --base_model gcn --beta 2
 ```
+
+Multi-graph knowledge transfer: cora+pubmed+citeseer-> reddit, where GAT is used as backbone.
+```
+python main.py --gpu 0 --graph_src cora+pubmed+citeseer  --graph_dst reddit1 --dropout 0.3 --lr 0.002 --patience 1000 --base_model gat --beta 2
+```
+
 # Reference
 @inproceedings{DBLP:conf/cikm/ZhouZF0H22,
   author    = {Dawei Zhou and

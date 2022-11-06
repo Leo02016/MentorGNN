@@ -5,7 +5,7 @@
 * sklearn
 
 ### 
-# For citeseer data set and pubmed dataset, please unzip the files in () and () first. 
+# For citeseer data set and pubmed dataset, please unzip the files in [citeseer file](https://github.com/Leo02016/MentorGNN/blob/main/data/citeseer/preprocessed_data.zip) and [Pubmed file](https://github.com/Leo02016/MentorGNN/blob/main/data/pubmed/preprocessed_data.zip) first. 
 
 ### Command
 Single-graph knowledge transfer: cora-> reddit1, where GCN is used as backbone.
